@@ -6,3 +6,5 @@
 
 
 # Brought to you by Heavy Linux Guy
+
+ [Your journey begins here](http://em6autotech.me/ "Your guide")
