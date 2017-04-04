@@ -7,4 +7,4 @@
 
 # Brought to you by Heavy Linux Guy
 
- [Your journey begins here](https://em6autotech.me/ "Your guide")
+ [Your journey begins here](http://em6autotech.me/ "Your guide")
