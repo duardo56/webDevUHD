@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title> ACM WebDev</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="ACM%20WebDev_files/bootstrap.css">
+  <link href="ACM%20WebDev_files/css.css" rel="stylesheet">
+  <script src="ACM%20WebDev_files/jquery.js"></script>
+  <script src="ACM%20WebDev_files/bootstrap.js"></script>
+  <style>
+
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+.img-wrapper {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-wrapper img {
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    vertical-align: middle;
+}
+
+.img-wrapper img:hover {
+	transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+.codebox {
+width:80%;
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Hidden part of the interweb¯\_(ツ)_/¯</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#download">Download</a></li>
+	<li> 
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Let's Go<span class="glyphicon glyphicon-fire"></span>   <span class="caret"></span></a>
+   <ul class="dropdown-menu">
+        <li><a href="#Tutorial"> Start here </a></li>
+	<li><a href="#step1"> Step 1 </a></li>   
+	<li><a href="#step2"> Step 2 </a></li>             
+	<li><a href="#step3"> Step 3 </a></li>
+	<li><a href="#step4"> Step 4 </a></li>
+	<li><a href="#step5"> Step 5 </a></li>
+	<li><a href="#step6"> Step 6 </a></li>  
+	<li><a href="#step7"> Step 7 </a></li>
+</ul>
+	</li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">ACM WebDev Workshop</h3>
+  <img src="ACM%20WebDev_files/Tux.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Brought to you by Heavy Linux Guy </h3>
+</div>
+
+<!-- Second Container -->
+<div id="download" class="container-fluid bg-2 text-center">
+  <h3 class="margin">Make your own website today!!!</h3>
+  <p>Excuse the mess this is only to host the source code if needed </p>
+  <a href="https://github.com/duardo56/webDevUHD.git" target="_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-save"></span> Get the code 
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="Tutorial" class="container-fluid bg-3 text-center">    
+	<div class="jumbotron">
+  <h2> <b>Take these with you</b></h2><br>
+<div class="row margin">
+                <b>Control the source </b> <span class="glyphicon glyphicon-console"> </span>
+      <div class="conatainer">
+	<div class="row justify-content-sm-center margin">
+	  <div class="col-12 col-sm-auto">
+		<a href="https://git-scm.com/downloads" target="_blank" type="button" class="btn btn-success btn-lg"> <img src="ACM%20WebDev_files/Git-Icon.png" width="32" height="32"> Git </a>
+		<a href="https://desktop.github.com/" target="_blank" type="button" class="btn btn-primary btn-lg"> <img src="ACM%20WebDev_files/GitHub-Mark-Light-32px.png"> GitHub</a>
+
+	  </div> 
+	</div>
+	
+<div class="row">
+       		<b>Write the code  </b> <span class="glyphicon glyphicon-pencil"></span>
+	</div>	
+<div class="container">
+  <div class="row justify-content-sm-center">
+    <div class="col-12 col-sm-auto">
+	 <a href="https://atom.io/" target="_blank" type="button" class="btn btn-success btn-lg">Atom <img src="ACM%20WebDev_files/Atom_editor_logo.svg" class="img-rounded" width="32" height="32"></a> 
+	 <a href="https://www.sublimetext.com/3" target="_balnk" type="button" class="btn btn-primary btn-lg">Sublime Text <img src="ACM%20WebDev_files/Sublime_Text_Logo.png" class="img-rounded" width="32" height="32"></a>
+	 <a href="https://notepad-plus-plus.org/download/v7.3.3.html" target="_blank" type="button" class="btn btn-info btn-lg">Notepad++<img src="ACM%20WebDev_files/Notepad_Logo.png" class="img-rounded" widht="32" height="32"></a>
+    </div>
+	</div></div>
+	<hr>	 
+	
+  <div class="row">
+			   
+	 <b> Step 1:</b>Fork, download or clone the repo into your computer   
+ 
+	
+ <div class="row" id="step1">
+	<div class="row">
+		<div class="col-12 img-wrapper">
+		<img src="ACM%20WebDev_files/step-1.png" class="img-responsive img-roudned img-wrapper margin" style="display:inline
+" alt="step_01" width="350" height="350"> </div>
+		</div>
+	</div>
+ <div class="row" id="step2"> 
+            <b> Step 2: </b> Make a new repo from your github account 
+	<div class="row">
+	<div class="col-12 img-wrapper">	
+	<img src="ACM%20WebDev_files/step-2.png" class="img-responsive img-wrapper img-rounded margin" style="display:inline" alt="step_02" width="350" height="350"></div>
+	</div>         
+<div class="row margin">    Make sure you name your repo <b> username.github.io</b>
+	
+	</div>
+		<div class="row justify-contetn-sm-center">
+		 	<b> Step 3: </b> Go to project folder 	
+		<div class="row">
+		<div class="row justify-content-sm-center margin">
+			<div class="row justify-content-sm-auto  ">
+			<dt> Terminal: </dt>
+			<dd> Go to your directory</dd>
+			</div>
+			<div class="col-12 col-md-auto margin ">
+			<code class="sh"> ~ $ cd username.github.io
+			</code>
+		            <dt>Open your favorite text editor</dt> 
+			</div>
+			 <div class="row justify-content-sm-auto ">
+			<dt> GUI: </dt>
+		
+                        <dd>Go to your directory</dd>
+			 
+			 <dd>
+                        <div class="col-12 col-md-auto img-wrapper">
+                          <img src="ACM%20WebDev_files/step-4.png" class="img-wrapper img-rounded img-responsive margin">
+			</div></dd>
+			<dt>Open your favorite text editor</dt>
+
+		</div>
+		</div>
+
+	
+	<div class="container-fluid">
+         <div class="row justify-content-s,-center" id="step5">
+   	<b> Step 5: </b> Write the following in your code in your <em> index.html</em>
+	</div>
+	</div>
+ <div class="row justify-content-sm-center">
+        <div class="container codebox col-12 col-sm-auto ">
+            <script src="ACM%20WebDev_files/9179548.js" type="text/javascript"></script><link rel="stylesheet" href="ACM%20WebDev_files/gist-embed-9f0a4ad9c85ca776e669003688baa9d55f9db315562ce4d23.css"><div id="gist9179548" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-index-html" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-index-html-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-index-html-LC1" class="blob-code blob-code-inner js-file-line">&lt;!DOCTYPE html&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-index-html-LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">html</span> <span class="pl-e">lang</span>=<span class="pl-s"><span class="pl-pds">"</span>en<span class="pl-pds">"</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-index-html-LC3" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">head</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-index-html-LC4" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-index-html-LC5" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">http-equiv</span>=<span class="pl-s"><span class="pl-pds">"</span>X-UA-Compatible<span class="pl-pds">"</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">"</span>IE=edge<span class="pl-pds">"</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-index-html-LC6" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">meta</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>viewport<span class="pl-pds">"</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">"</span>width=device-width, initial-scale=1<span class="pl-pds">"</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-index-html-LC7" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">title</span>&gt;Bootstrap 101 Template&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-index-html-LC8" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-index-html-LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span> Bootstrap <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-index-html-LC10" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>css/bootstrap.min.css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-index-html-LC11" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-index-html-LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span> HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-index-html-LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span> WARNING: Respond.js doesn't work if you view the page via file:// <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-index-html-LC14" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span>[if lt IE 9]&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-index-html-LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c">      &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-index-html-LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-c">      &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-index-html-LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-c">    &lt;![endif]<span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-index-html-LC18" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">head</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-index-html-LC19" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">body</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-index-html-LC20" class="blob-code blob-code-inner js-file-line">    &lt;<span class="pl-ent">h1</span>&gt;Hello, world!&lt;/<span class="pl-ent">h1</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-index-html-LC21" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-index-html-LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span> jQuery (necessary for Bootstrap's JavaScript plugins) <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-index-html-LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-index-html-LC24" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">&lt;!--</span> Include all compiled plugins (below), or include individual files as needed <span class="pl-c">--&gt;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-index-html-LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>js/bootstrap.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-index-html-LC26" class="blob-code blob-code-inner js-file-line">  &lt;/<span class="pl-ent">body</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="file-index-html-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-index-html-LC27" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
+      </tr>
+</tbody></table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/robmccormack/9179548/raw/3a0f7cc5fa354aa26873c83b30748b6380337c13/index.html" style="float:right">view raw</a>
+        <a href="https://gist.github.com/robmccormack/9179548#file-index-html">index.html</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+
+        </div><!--/.col-->
+    </div><!--/.row-->
+
+
+	<div class="row justify-content-md-center" id="step6"> 
+		<b> Step 6: </b> Upload your code to GitHub 
+		 </div> 
+	</div>
+		<div class="row justify-conent-md-center">
+		                        <dt>Run the commands to update your website</dt>
+                        <dd>
+                                 <div class="col-12 col-md-auto margin ">
+                        <div class="row justify-content-sm-auto">
+                        <code>git add * --all</code>
+                        </div>
+                        <div class="row justify-content-sm-auto">
+                        <code>git commit -m "Initial commit"</code>
+                        </div>
+                        <div class="row justify-content-sm-auto">
+                        <code>git push -u origin master</code>
+                        </div>
+                        </div>
+
+                        </dd>
+
+
+		</div>
+
+	</div>
+
+</div>
+	<div class="row justifycontnte-md-center margin" id="step7">
+	   <b> Step 7:</b> Open your browser and go to <b> username.github.io</b>	
+		<div class="col-12 col-sm-auto">
+		  <h1> Enjoy your new site <span class="glyphicon glyphicon-thumbs-up"></span></h1>
+		</div>
+	</div>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+   ©Heavy Linux Guy 2017
+</footer>
+
+
+
+</div></div></div></div></div></body></html>
