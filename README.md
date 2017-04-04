@@ -9,4 +9,4 @@
 
 Start here 
 
-# [I'm an inline-style link with title](https://em6autotech.me "Your guide")
+ [Your journey begins here](https://em6autotech.me "Your guide")
